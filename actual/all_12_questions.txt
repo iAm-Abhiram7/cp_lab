@@ -1,0 +1,78 @@
+COMPETITIVE PROGRAMMING LAB - ALL 12 QUESTIONS
+==============================================
+
+EXPERIMENT-1:
+
+a) Write a JAVA Program to find Subarrays with K Different integers
+   Given an array A of positive integers, call a (contiguous, not necessarily distinct) subarray of A good if
+   the number of different integers in that subarray is exactly K. (For example, [1,2,3,1,2] has 3 different
+   integers: 1, 2, and 3.)
+   Return the number of good subarrays of A.
+   Example 1:
+   Input: A = [1,2,1,2,3], K = 2
+   Output: 7
+   Explanation: Subarrays formed with exactly 2 different integers: [1,2], [2,1], [1,2], [2,3], [1,2,1],
+   [2,1,2], [1,2,1,2]
+
+b) Write a JAVA Program to find shortest sub array with sum at least K
+   Return the length of the shortest, non-empty, contiguous subarray of A with sum at least K. If there is
+   no non-empty subarray with sum at least K, return -1.
+   Example 1:
+   Input: A = [1], K = 1
+   Output: 1
+   Example 2:
+   Input: A = [1,2], K = 4
+   Output: -1
+
+c) Write a JAVA Program to implement Fenwick Tree
+   Fenwick Tree (Binary Indexed Tree) implementation with operations for range sum queries and updates.
+
+d) Write a JAVA Program to implement a segment tree with its operations
+   Implement a segment tree data structure with operations for range queries and updates.
+
+e) Write a JAVA Program to implement TREAP with its operations
+   Implement a TREAP (Tree + Heap) data structure that maintains both BST property and heap property.
+
+f) Write a JAVA Program to find a permutation of the vertices (topological order) which
+   corresponds to the order such that for every directed edge uv, vertex u comes before v in the ordering.
+   (Topological Sorting)
+
+g) Write a JAVA Program to find all the articulation points of a graph
+   Find all articulation points (cut vertices) in an undirected graph - vertices whose removal increases
+   the number of connected components.
+
+h) Write a JAVA Program to check whether the permutation of a string forms a palindrome
+   Given a string, check if any permutation of the string can form a palindrome.
+
+i) Write a JAVA Program to return all index pairs [i,j] given a text string and words (a list of strings)
+   Find all occurrences of words in the text and return their starting and ending indices.
+
+j) Write a JAVA Program to find the lowest common ancestor of a binary tree
+   Given a binary tree, find the lowest common ancestor (LCA) of two given nodes in the tree.
+
+k) Write a JAVA Program to find the Longest Increasing Path in a Matrix
+   Given an integer matrix, find the length of the longest increasing path. From each cell, you can either
+   move to four directions: left, right, up or down.
+
+QUESTION 2:
+
+2) Develop a java program to find the Lexicographically smallest equivalent string.
+   Given strings A and B of the same length, we say A[i] and B[i] are equivalent characters. For
+   example, if A = "abc" and B = "cde", then we have 'a' == 'c', 'b' == 'd', 'c' == 'e'. Equivalent characters
+   follow the usual rules of any equivalence relation:
+   • Reflexivity: 'a' == 'a'
+   • Symmetry: 'a' == 'b' implies 'b' == 'a'
+   • Transitivity: 'a' == 'b' and 'b' == 'c' implies 'a' == 'c'
+   
+   Return the lexicographically smallest equivalent string of S by using the equivalency information from A and B.
+   
+   Example 1:
+   Input: A = "parker", B = "morris", S = "parser"
+   Output: "makkek"
+   
+   Example 2:
+   Input: A = "hello", B = "world", S = "hold"
+   Output: "hdld"
+
+==============================================
+Total: 12 Questions (11 from Experiment-1 + 1 additional question)
